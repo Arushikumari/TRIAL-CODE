@@ -6,9 +6,14 @@
 <style> 
 div {
   width: 100px;
+
+  height: 80px;
+  background-color: red;
+  position: absolute;
   height: 100px;
   background-color: yellow;
   position: relative;
+
   animation-name: example;
   animation-duration: 4s;
   animation-delay: 9s;
@@ -17,4 +22,7 @@ div {
 @keyframes example {
   0%   {background-color:red; left:0px; top:0px;}
   25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:290px; top:200px;}
+
   50%  {background-color:cyan; left:200px; top:200px;}
+
