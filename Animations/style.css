@@ -1,5 +1,10 @@
 /* Practice */
 
+.class{border:2px solid cyan;
+       color:red;
+       background-color:black;}
+
+
 #id2{font-size:45px;
      background-color:cyan;
      font-weight:bold;
